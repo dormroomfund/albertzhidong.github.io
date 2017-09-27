@@ -1,0 +1,256 @@
+/*Font*/
+@media screen and (max-width: 800px){
+	.HeaderText{
+		font-size: 3.375rem;
+	}
+
+	.SubheaderText{
+		font-size: 2.8125rem;
+	}
+
+	.SubsubheaderText{
+		font-size: 1.546875rem;
+	}
+
+	.Bodycopy{
+		font-size: 1.03125rem;
+	}
+
+	.BodycopyItalicized{
+		font-family: CircularStd-BoldItalic, Helvetica, Arial, sans-serif;	
+	}
+
+	body{
+		font-size: 1.03125rem;
+		font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.HeaderText{
+		font-size: 2.25rem;
+	}
+
+	.SubheaderText{
+		font-size: 1.875rem;
+	}
+
+	.SubsubheaderText{
+		font-size: 1.03125rem;
+	}
+
+	.Bodycopy{
+		font-size: .6875rem;
+		font-family: CircularStd-Bold, Helvetica, Arial, sans-serif;
+	}
+
+	.BodycopyItalicized{
+		font-family: CircularStd-BoldItalic, Helvetica, Arial, sans-serif;	
+	}
+
+	body{
+		font-size: 1.03125rem;
+		font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
+	}
+}
+
+/*Social Media*/
+@media screen and (max-width: 800px){
+	header img{
+		width: 28.125px;
+		height: 56.25px;
+	}
+}
+
+/*Title Screen*/
+@media screen and (max-width: 800px){
+	#DRFIconWrapper img{
+		max-width: 15%;
+	}
+
+	#title_background img{
+		width: 3.5%;
+	}
+
+	header a, header div{
+		margin: 0% 1%;
+		padding: 0%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	#DRFIconWrapper img{
+		max-width: 25%;
+	}
+
+	#title_background img{
+		width: 5%;
+	}
+
+	header a, header div{
+		margin: 0% 2%;
+		padding: 0%;
+	}
+}
+
+/*Introtext*/
+@media screen and (max-width: 600px){
+	#introtext{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+
+
+/*Section Headings*/
+@media screen and (max-width: 800px){
+	.section-title .section-image img{
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.section-title .section-image{
+		margin-top: 10%;
+		margin-bottom: 0%;
+		padding-bottom: 0%;
+		width: 100%;
+		float: none;
+	}
+
+	.section-title .section-image img{
+		margin: auto;
+		padding-bottom: 0%;
+		padding-left: 25%;
+		padding-right: 25%;
+		width: 100%;
+		float: none;
+	}
+
+	.section-title .section-text{
+		margin: 5% 0%;
+		text-align: center;
+		width: 100%;
+		float: none;
+	}
+}
+
+/*Content*/
+@media screen and (max-width: 800px){
+}
+
+@media screen and (max-width: 600px){
+	.content-page h2, .content-page p{
+		max-width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 400px){
+}
+
+/*Content Page*/
+@media screen and (max-width: 800px){
+	.content-page .bodytext{
+		width: 100%;
+	}
+	.content-page .SingleGraphic{
+		width: 100%;
+		text-align: center;
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	.content-page .SingleGraphic img{
+		text-align: center;
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+}
+
+
+
+/*Graphics*/
+@media screen and (max-width: 800px){
+	.SingleGraphic{
+		width: 100%;
+	}
+
+	.SingleGraphic img{
+		width: 80%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.MultiGraphic{
+		margin-top: 20%;
+	}
+
+	.MultiGraphic img{
+		width: 40%;
+		height: 40%;
+		margin: 1%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.SingleGraphic img{
+		width: 100%;
+	}
+
+	.MultiGraphic{
+		margin-top: 25%;
+	}
+
+	.MultiGraphic img{
+		width: 30%;
+		height: 30%;
+		margin: .5%;
+	}
+}
+
+/*Newsletter*/
+@media screen and (max-width: 1000px){
+	#signup{
+		max-width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#signup{
+		flex-direction: column;
+	}
+
+	#signup input{
+		width: 60%;
+		margin-top: 2.5%;
+		margin-bottom: 2.5%;
+	}
+}
+
+/*Apply Section*/
+@media screen and (max-width: 1250px){
+
+}
+
+@media screen and (max-width: 800px){
+	#video{
+		width: 100%;
+	}
+
+	#video iframe{
+		width: 100%;
+	}
+
+	#apply{
+		width: 100%;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 400px){
+}
