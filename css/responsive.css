@@ -78,6 +78,21 @@
 	}
 }
 
+/*Quotes*/
+@media (max-width: 600px){
+	#quotes{
+		padding: 5%;
+	}
+
+	#quotes div{
+		display: inline-block;
+	}
+
+	#quotes img{
+		width: 70%;
+	}
+}
+
 /*Introtext*/
 @media (max-width: 600px){
 	#introtext{
