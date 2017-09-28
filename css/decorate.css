@@ -201,12 +201,9 @@ header a, header div{
 
 #introtext{
 	width: 100%;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding: 5% 20%;
 	position: relative;
 	margin: auto;
-	margin-top: 5%;
-	margin-bottom: 5%;
 }
 
 
@@ -383,6 +380,16 @@ header a, header div{
 	padding-bottom: 5%;
 	margin: 0% 0%;
 }
+
+
+/*Quotes*/
+#quotes{
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+
 
 /*Newsletter*/
 #newsletter{
