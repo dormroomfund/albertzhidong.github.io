@@ -78,38 +78,8 @@
 	}
 }*/
 
-@media (max-width: 800px){
-	#DRFIconWrapper img{
-		max-width: 15%;
-	}
-
-	#title_background img{
-		width: 3.5%;
-	}
-
-	header a, header div{
-		margin: 0% 1%;
-		padding: 0%;
-	}
-}
-
-@media screen and (max-width: 400px){
-	#DRFIconWrapper img{
-		max-width: 25%;
-	}
-
-	#title_background img{
-		width: 5%;
-	}
-
-	header a, header div{
-		margin: 0% 2%;
-		padding: 0%;
-	}
-}
-
 /*Introtext*/
-@media (max-width: 600px){
+@media all and (max-width: 600px){
 	#introtext{
 		padding-left: 10%;
 		padding-right: 10%;
