@@ -63,7 +63,22 @@
 }
 
 /*Title Screen*/
-@media screen and (max-width: 800px){
+/*@media screen and (max-width: 800px){
+	#DRFIconWrapper img{
+		max-width: 15%;
+	}
+
+	#title_background img{
+		width: 3.5%;
+	}
+
+	header a, header div{
+		margin: 0% 1%;
+		padding: 0%;
+	}
+}*/
+
+@media (max-width: 800px){
 	#DRFIconWrapper img{
 		max-width: 15%;
 	}
