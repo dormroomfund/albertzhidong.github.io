@@ -174,7 +174,7 @@
 	}
 
 	.MultiGraphic{
-		margin-top: 10%;
+		margin-top: 5%;
 		padding-left: 0%;
 		padding-right: 0%;
 	}
@@ -183,14 +183,7 @@
 		justify-content: space-between;
 	}
 
-	#Schools .row9{
-		justify-content: center;
-	}
-
-	#YCLogos .row4{
-		justify-content: center;
-	}
-	#AcceleratorLogos .row1, #AcceleratorLogos .row2{
+	#Fiverows .row9, #YCLogos .row4, #AcceleratorLogos .row1, #AcceleratorLogos .row2{
 		justify-content: center;
 	}
 
