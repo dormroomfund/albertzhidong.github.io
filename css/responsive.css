@@ -60,6 +60,11 @@
 		width: 228.125px;
 		height: 256.25px;
 	}
+
+	header a, header div{
+		margin: 0% 1%;
+		padding: 0%;
+	}
 }
 
 /*Title Screen*/
@@ -71,11 +76,6 @@
 	#title_background img{
 		width: 3.5%;
 	}
-
-	header a, header div{
-		margin: 0% 1%;
-		padding: 0%;
-	}
 }
 
 /*Introtext*/
@@ -85,8 +85,6 @@
 		padding-right: 10%;
 	}
 }
-
-
 
 /*Section Headings*/
 @media screen and (max-width: 800px){
