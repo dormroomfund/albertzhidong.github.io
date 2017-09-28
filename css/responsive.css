@@ -186,8 +186,29 @@
 		margin-right: 5%;
 	}
 
+	.content-page .centered img{
+		width: 80%;
+	}
+
 	.MultiGraphic{
 		margin-top: 20%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.MultiGraphic .row1, .MultiGraphic .row2, .MultiGraphic .row3, .MultiGraphic .row4, .MultiGraphic .row5,.MultiGraphic .row6,.MultiGraphic .row7, .MultiGraphic .row8, .MultiGraphic .row9{
+		justify-content: space-between;
+	}
+
+	#Fortyschools .row9{
+		justify-content: center;
+	}
+
+	#YCLogos .row4{
+		justify-content: center;
+	}
+	#AcceleratorLogos .row1, #AcceleratorLogos .row2{
+		justify-content: center;
 	}
 
 	.MultiGraphic img{
@@ -195,10 +216,26 @@
 		height: 40%;
 		margin: 1%;
 	}
+
+	#AcceleratorLogos{
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+
+	#AcceleratorLogos img{
+		width: 30%;
+	}
 }
 
 @media screen and (max-width: 400px){
 	.SingleGraphic img{
+		width: 100%;
+	}
+
+	.content-page .centered img{
 		width: 100%;
 	}
 
@@ -210,6 +247,10 @@
 		width: 30%;
 		height: 30%;
 		margin: .5%;
+	}
+
+	#AcceleratorLogos img{
+		width: 35%;
 	}
 }
 
