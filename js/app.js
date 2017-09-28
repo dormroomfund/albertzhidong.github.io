@@ -1,6 +1,6 @@
-$(document).ready(function() {
-	setHeight();
-});
+// $(document).ready(function() {
+// 	setHeight();
+// });
 
 
 // function setHeight(){

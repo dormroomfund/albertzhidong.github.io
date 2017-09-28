@@ -206,6 +206,27 @@ header a, header div{
 	margin: auto;
 }
 
+#quotes{
+	padding: 5% 15%;
+	position: relative;
+	width: 100%;
+}
+
+#quotes div{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	padding: 2% 0%;
+}
+
+#quotes .rightimg{
+	justify-content: flex-end;
+}
+
+#quotes img{
+	width: 50%;
+}
 
 /*section Titles*/
 .section-title{
@@ -380,16 +401,6 @@ header a, header div{
 	padding-bottom: 5%;
 	margin: 0% 0%;
 }
-
-
-/*Quotes*/
-#quotes{
-	padding-left: 5%;
-	padding-right: 5%;
-	text-align: center;
-}
-
-
 
 /*Newsletter*/
 #newsletter{
