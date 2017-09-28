@@ -78,20 +78,29 @@
 	}
 }
 
+@media screen and (max-width: 500px){
+	#DRFIconWrapper img{
+		max-width: 20%;
+	}
+
+}
+
 /*Quotes*/
-@media (max-width: 600px){
+/*@media (max-width: 600px){
 	#quotes{
 		padding: 5%;
 	}
 
-	#quotes div{
-		display: inline-block;
+	#MobileQuotes div, #MobileQuotes .rightimg{
+		justify-content: center;
+		padding-top: 5%;
+		padding-bottom: 5%;
 	}
 
-	#quotes img{
-		width: 70%;
+	#MobileQuotes img{
+		width: 90%;
 	}
-}
+}*/
 
 /*Introtext*/
 @media (max-width: 600px){
@@ -217,6 +226,10 @@
 		margin-right: 0%;
 		padding-left: 0%;
 		padding-right: 0%;
+	}
+
+	.aligndivs{
+		display: block;
 	}
 }
 

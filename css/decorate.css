@@ -206,13 +206,13 @@ header a, header div{
 	margin: auto;
 }
 
-#quotes{
+/*#quotes{
 	padding: 5% 10%;
 	position: relative;
 	width: 100%;
 }
 
-#quotes div{
+#MobileQuotes div{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -220,13 +220,13 @@ header a, header div{
 	padding: 2% 0%;
 }
 
-#quotes .rightimg{
+#MobileQuotes .rightimg{
 	justify-content: flex-end;
 }
 
-#quotes img{
-	width: 50%;
-}
+#MobileQuotes img{
+	width: 100%;
+}*/
 
 /*section Titles*/
 .section-title{
@@ -326,6 +326,16 @@ header a, header div{
 	padding: 0% 0%;
 	margin: 0% 0%;
 	width: 50%;
+}
+
+.aligndivs{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.aligntop{
+	align-self: flex-start;
 }
 
 .MultiGraphic{
