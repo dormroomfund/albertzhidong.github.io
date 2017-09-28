@@ -109,7 +109,7 @@
 }
 
 /*Introtext*/
-@media screen and (max-width: 600px){
+@media (max-width: 600px){
 	#introtext{
 		padding-left: 10%;
 		padding-right: 10%;
