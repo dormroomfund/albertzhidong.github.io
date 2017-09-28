@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 500px){
 	.HeaderText{
-		font-size: 2.25rem;
+		font-size: 8.25rem; /*font-size: 2.25rem;*/
 	}
 
 	.SubheaderText{
@@ -79,7 +79,7 @@
 }*/
 
 /*Introtext*/
-@media all and (max-width: 600px){
+@media (max-width: 600px){
 	#introtext{
 		padding-left: 10%;
 		padding-right: 10%;
