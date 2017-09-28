@@ -325,7 +325,7 @@ header a, header div{
 }
 
 .MultiGraphic img, .MultiGraphic a{
-	width: 25%;
+	width: 30%;
 	margin: 2%;
 }
 
@@ -334,11 +334,15 @@ header a, header div{
 	margin: auto;
 }
 
-#Fortyschools img{
-	width: 20%;
+#FourRows img{
+	width: 22.5%;
 }
 
-#Fortyschools .row9{
+#FiveRows img{
+	width: 18%;
+}
+
+#Schools .row9{
 	justify-content: center;
 }
 
