@@ -85,23 +85,6 @@
 
 }
 
-/*Quotes*/
-/*@media (max-width: 600px){
-	#quotes{
-		padding: 5%;
-	}
-
-	#MobileQuotes div, #MobileQuotes .rightimg{
-		justify-content: center;
-		padding-top: 5%;
-		padding-bottom: 5%;
-	}
-
-	#MobileQuotes img{
-		width: 90%;
-	}
-}*/
-
 /*Introtext*/
 @media (max-width: 600px){
 	#introtext{
@@ -142,6 +125,41 @@
 		float: none;
 	}
 }
+
+
+/*Quotes*/
+@media screen and (max-width: 800px){
+	#quotes{
+		padding: 5%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.individualquote{
+		display: inline-block;
+	}
+
+	.individualquote .quotetext{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.individualquote .quoteimg{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.individualquote .quoteimg img{
+		width: 30%;
+	}
+
+	.quotetitle{
+		text-align: right;
+	}
+}
+
 
 /*Content*/
 @media screen and (max-width: 800px){
@@ -212,7 +230,7 @@
 	}
 
 	.MultiGraphic img, .MultiGraphic a{
-		margin: 1%;
+		margin: 3% 0%;
 	}
 
 	.MultiGraphic a img{
@@ -231,6 +249,10 @@
 	.aligndivs{
 		display: block;
 	}
+
+	#StudentVCs .row1, #StudentVCs .row2{
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 500px){
@@ -246,14 +268,18 @@
 		margin-top: 10%;
 	}
 
-	.MultiGraphic img{
+	.MultiGraphic img, .MultiGraphic a{
 		width: 30%;
 		height: 30%;
-		margin: .5%;
+		margin: 2% 0%;
 	}
 
 	#AcceleratorLogos img{
-		width: 35%;
+		width: 25%;
+	}
+
+	#StudentVCs img{
+		width: 40%;
 	}
 }
 
@@ -289,6 +315,7 @@
 	#apply{
 		width: 100%;
 		float: none;
+		padding-top: 5%;
 	}
 }
 
