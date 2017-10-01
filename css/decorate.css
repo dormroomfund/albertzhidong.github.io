@@ -330,7 +330,6 @@ header a, header div{
 	width: 35%;
 	height: 100%;
 	float: right;
-	margin-right: 5%;
   }
 
 .SingleGraphic img{
@@ -438,17 +437,15 @@ header a, header div{
 	margin: 0% 0%;
 }
 
-#StudentVCs{
-	padding-left: 0%;
-	padding-right: 0%;
-	justify-content: center
-}
-
 /*Newsletter*/
 #newsletter{
 	position: relative;
 	text-align: center;
 	padding: 5% 5%;
+}
+
+#centeredtext{
+	text-align: center;
 }
 
 #newsletter p{

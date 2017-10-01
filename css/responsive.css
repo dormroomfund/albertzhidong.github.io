@@ -162,9 +162,6 @@
 
 
 /*Content*/
-@media screen and (max-width: 800px){
-}
-
 @media screen and (max-width: 600px){
 	.content-page h2, .content-page p{
 		max-width: 100%;
@@ -172,14 +169,12 @@
 	}
 }
 
-@media screen and (max-width: 500px){
-}
-
 /*Content Page*/
 @media screen and (max-width: 800px){
 	.content-page .bodytext{
 		width: 100%;
 	}
+
 	.content-page .SingleGraphic{
 		width: 100%;
 		text-align: center;
@@ -188,6 +183,7 @@
 		padding-left: 0%;
 		padding-right: 0%;
 	}
+
 	.content-page .SingleGraphic img{
 		text-align: center;
 		margin-left: 0%;
@@ -317,9 +313,6 @@
 		float: none;
 		padding-top: 5%;
 	}
-}
-
-@media screen and (max-width: 500px){
 }
 
 /*Footer*/
