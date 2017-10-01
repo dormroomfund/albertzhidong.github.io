@@ -31,6 +31,9 @@
 
 *{
 	box-sizing: border-box;
+	&.in-transition {
+    	transition: transform 900ms ease;
+  	}
 }
 
 .HeaderText{
@@ -194,6 +197,7 @@ header a, header div{
 	bottom: 1%;
 	left: 50%;
 	transform:translateX(-50%);
+	z-index: 1;
 }
 
 #blackbar{

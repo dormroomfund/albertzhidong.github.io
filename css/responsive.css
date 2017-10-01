@@ -83,6 +83,18 @@
 		max-width: 20%;
 	}
 
+	#title-background{
+		height: 95vh;
+	}
+
+	#title-background img{
+		width: 4%;
+	}
+
+	#blackbar{
+		display: none;
+	}
+
 }
 
 /*Introtext*/
@@ -312,6 +324,19 @@
 		width: 100%;
 		float: none;
 		padding-top: 5%;
+	}
+}
+
+/*Thanks*/
+@media screen and (max-width: 800px){
+	#thanks{
+		padding: 2% 10%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#thanks{
+		padding: 2% 5%;
 	}
 }
 
