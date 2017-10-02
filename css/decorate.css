@@ -1,4 +1,8 @@
-/*Fonts*/
+*{
+	box-sizing: border-box;
+}
+
+/*--------------------------Text & Fonts--------------------------*/
 @font-face{
 	font-family: CircularStd-Book; 
 	src: url('../Fonts/CircularStd-Book.otf');
@@ -27,10 +31,6 @@
 @font-face{
 	font-family: CircularStd-BoldItalic; 
 	src: url('../Fonts/CircularStd-BoldItalic.otf');
-}
-
-*{
-	box-sizing: border-box;
 }
 
 .HeaderText{
@@ -125,6 +125,7 @@ body{
 	color: white;
 }
 
+/*---------------------------Header & Banners---------------------------*/
 header{
 	position: fixed;
 	width: 100%;
@@ -145,6 +146,7 @@ header a, header div{
 	transform: translateY(-20px);
 }
 
+/*---------------------------Title Screen---------------------------*/
 #DRFIconWrapper{
 	position: absolute;
 	width: 100%;
@@ -224,6 +226,7 @@ header a, header div{
 	width: 100%;
 }
 
+/*---------------------------Introtext---------------------------*/
 #introtext{
 	width: 100%;
 	padding: 5% 20%;
@@ -231,6 +234,7 @@ header a, header div{
 	margin: auto;
 }
 
+/*---------------------------Quotes---------------------------*/
 #quotes{
 	padding: 5% 15%;
 	position: relative;
@@ -493,7 +497,7 @@ header a, header div{
 	color: white;
 }
 
-/*---------------------------Apply Section---------------------------*/
+/*---------------------------Apply---------------------------*/
 #applysection{
 	position: relative;
 	text-align: center;

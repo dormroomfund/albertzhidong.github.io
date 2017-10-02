@@ -1,4 +1,4 @@
-/*Font*/
+/*--------------------------- Text & Fonts---------------------------*/
 @media screen and (max-width: 800px){
 	.HeaderText{
 		font-size: 3.375rem;
@@ -56,9 +56,10 @@
 
 /*---------------------------Social Media---------------------------*/
 @media screen and (max-width: 800px){
-	header img{
+	.Banners img{
 		width: 28.125px;
-		height: 56.25px;
+		height: 70.3125px;
+		transform: translateY(-15px);
 	}
 
 	header a, header div{
@@ -104,10 +105,50 @@
 }
 
 /*---------------------------Introtext---------------------------*/
-@media (max-width: 600px){
+@media (max-width: 800px){
 	#introtext{
 		padding-left: 10%;
 		padding-right: 10%;
+	}
+}
+
+@media (max-width: 500px){
+	#introtext{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+/*---------------------------Quotes---------------------------*/
+@media screen and (max-width: 800px){
+	#quotes{
+		padding: 5%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.individualquote{
+		display: inline-block;
+	}
+
+	.individualquote .quotetext{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.individualquote .quoteimg{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.individualquote .quoteimg img{
+		width: 30%;
+	}
+
+	.quotetitle{
+		text-align: right;
 	}
 }
 
@@ -143,41 +184,6 @@
 		float: none;
 	}
 }
-
-
-/*---------------------------Quotes---------------------------*/
-@media screen and (max-width: 800px){
-	#quotes{
-		padding: 5%;
-	}
-}
-
-@media screen and (max-width: 500px){
-	.individualquote{
-		display: inline-block;
-	}
-
-	.individualquote .quotetext{
-		display: inline-block;
-		width: 100%;
-	}
-
-	.individualquote .quoteimg{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-	}
-
-	.individualquote .quoteimg img{
-		width: 30%;
-	}
-
-	.quotetitle{
-		text-align: right;
-	}
-}
-
 
 /*---------------------------Content---------------------------*/
 @media screen and (max-width: 600px){
@@ -297,7 +303,7 @@
 	}
 }
 
-/*Newsletter*/
+/*---------------------------Newsletter---------------------------*/
 @media screen and (max-width: 1000px){
 	#signup{
 		max-width: 90%;
@@ -316,7 +322,7 @@
 	}
 }
 
-/*---------------------------Apply Section---------------------------*/
+/*---------------------------Apply---------------------------*/
 @media screen and (max-width: 800px){
 	#videowrapper, #video{
 		width: 100%;
@@ -352,7 +358,7 @@
 	}
 }
 
-/*Footer*/
+/*---------------------------Footer---------------------------*/
 @media screen and (max-width: 500px){
 	footer{
 		display: inline-block;
