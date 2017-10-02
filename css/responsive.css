@@ -318,13 +318,10 @@
 
 /*Apply Section*/
 @media screen and (max-width: 800px){
-	#video{
+	#videowrapper, #video{
 		width: 100%;
 	}
 
-	#video iframe{
-		width: 100%;
-	}
 
 	#apply{
 		width: 100%;
