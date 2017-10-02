@@ -1,25 +1,28 @@
-// $(document).ready(function(){
-//   // Run our function
-//   smoothScrollWithoutHash( 'a[href*="#"]' );
-// });
+$(document).ready(function(){
 
-// var scroll = new SmoothScroll();
 
-// var smoothScrollWithoutHash = function (selector, settings) {
-//   /**
-//    * If smooth scroll element clicked, animate scroll
-//    */
-//   var clickHandler = function (event) {
-//     var toggle = event.target.closest( selector );
-//     console.log(toggle);
-//     if ( !toggle || toggle.tagName.toLowerCase() !== 'a' ) return;
-//     console.log(toggle.hash);
-//     var anchor = document.querySelector( toggle.hash );
-//     if ( !anchor ) return;
+  $('.Banners').mouseenter(function(){
+    $(this).find('img').finish().show()
+    .animate({'margin-top':'15px'}, 250);
+  });
+  $('.Banners').mouseleave(function(){
+    $(this).find('img').finish().show()
+    .animate({'margin-top':'0px'}, 250);
+  });
 
-//     event.preventDefault(); // Prevent default click event
-//     scroll.animateScroll( anchor, toggle, settings || {} ); // Animate scroll
-//   };
+  $('#arrow').mouseenter(function(){
+    arrowhop();
+  });
+});
 
-//   window.addEventListener('click', clickHandler, false );
-// };
+var lastCall = 0;
+function arrowhop() {
+  var now = Date.now();
+  if (lastCall + 500 < now) {
+    lastCall = now;
+    $('#arrow').find('img').finish().show()
+    .animate({'margin-bottom': '15px'}, 200, function(){
+      $(this).animate({'margin-bottom': '0px'}, 200);
+    });
+  }
+}

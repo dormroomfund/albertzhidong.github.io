@@ -141,6 +141,10 @@ header a, header div{
 	padding: 0%;
 }
 
+.Banners img{
+	transform: translateY(-20px);
+}
+
 #DRFIconWrapper{
 	position: absolute;
 	width: 100%;
