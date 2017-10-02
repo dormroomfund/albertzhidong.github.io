@@ -54,7 +54,7 @@
 	}
 }
 
-/*Social Media*/
+/*---------------------------Social Media---------------------------*/
 @media screen and (max-width: 800px){
 	header img{
 		width: 28.125px;
@@ -67,7 +67,7 @@
 	}
 }
 
-/*Title Screen*/
+/*---------------------------Title Screen---------------------------*/
 @media screen and (max-width: 800px){
 	#DRFIconWrapper img{
 		max-width: 15%;
@@ -103,7 +103,7 @@
 
 }
 
-/*Introtext*/
+/*---------------------------Introtext---------------------------*/
 @media (max-width: 600px){
 	#introtext{
 		padding-left: 10%;
@@ -111,7 +111,7 @@
 	}
 }
 
-/*Section Headings*/
+/*---------------------------Section Headings---------------------------*/
 @media screen and (max-width: 800px){
 	.section-title .section-image img{
 		width: 40%;
@@ -145,7 +145,7 @@
 }
 
 
-/*Quotes*/
+/*---------------------------Quotes---------------------------*/
 @media screen and (max-width: 800px){
 	#quotes{
 		padding: 5%;
@@ -179,7 +179,7 @@
 }
 
 
-/*Content*/
+/*---------------------------Content---------------------------*/
 @media screen and (max-width: 600px){
 	.content-page h2, .content-page p{
 		max-width: 100%;
@@ -213,7 +213,7 @@
 
 
 
-/*Graphics*/
+/*---------------------------Graphics---------------------------*/
 @media screen and (max-width: 800px){
 	.SingleGraphic{
 		width: 100%;
@@ -316,7 +316,7 @@
 	}
 }
 
-/*Apply Section*/
+/*---------------------------Apply Section---------------------------*/
 @media screen and (max-width: 800px){
 	#videowrapper, #video{
 		width: 100%;
@@ -339,7 +339,7 @@
 	}
 }
 
-/*Thanks*/
+/*---------------------------Thanks---------------------------*/
 @media screen and (max-width: 800px){
 	#thanks{
 		padding: 2% 10%;

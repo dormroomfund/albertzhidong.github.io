@@ -80,7 +80,7 @@ body{
 	text-decoration: underline;
 }
 
-/*Color*/
+/*---------------------------Color---------------------------*/
 .yellow{
 	color: rgb(255,174,6);
 }
@@ -272,7 +272,7 @@ header a, header div{
 	line-height: 0;
 }
 
-/*section Titles*/
+/*---------------------------Section Titles---------------------------*/
 .section-title{
 	width: 100%;
 	padding-left: 5%;
@@ -305,7 +305,7 @@ header a, header div{
 	width: 42%;
 }
 
-/*Content Pages*/
+/*---------------------------Content Pages---------------------------*/
 .content-page{
 	width: 100%;
 	top: 0;
@@ -454,7 +454,7 @@ header a, header div{
 	margin: 0% 0%;
 }
 
-/*Newsletter*/
+/*---------------------------Newsletter---------------------------*/
 #newsletter{
 	position: relative;
 	text-align: center;
@@ -489,7 +489,7 @@ header a, header div{
 	color: white;
 }
 
-/*Apply Section*/
+/*---------------------------Apply Section---------------------------*/
 #applysection{
 	position: relative;
 	text-align: center;
@@ -530,13 +530,6 @@ header a, header div{
 	height: 100%;
 }
 
-/*#video iframe{
-	width: 512px;
-	height: 315px;
-	margin: 0;
-	padding: 0;
-}*/
-
 #apply{
 	position: relative;
 	display: inline-block;
@@ -565,13 +558,13 @@ header a, header div{
 	word-break: word-break;
 }
 
-/*Thanks*/
+/*---------------------------Thanks---------------------------*/
 #thanks{
 	text-align: center;
 	padding: 2% 20%;
 }
 
-/*Footer*/
+/*---------------------------Footer---------------------------*/
 footer{
 	display: flex;
 	padding-left: 5%;
