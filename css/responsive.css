@@ -84,13 +84,14 @@
 	}
 
 	#title-background{
-		height: 100vh;
+		height: 95vh;
 		background-size: 95%;
 	}
 
 	#arrowdiv{
-		padding: 0 3% 0 0;
+		padding-right: 3%;
 	}
+
 	#arrowdiv a img{
 		width: 3%;
 	}
