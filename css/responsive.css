@@ -84,11 +84,15 @@
 	}
 
 	#title-background{
-		height: 95vh;
+		height: 100vh;
+		background-size: 95%;
 	}
 
-	#title-background img{
-		width: 4%;
+	#arrowdiv{
+		padding: 0 3% 0 0;
+	}
+	#arrowdiv a img{
+		width: 3%;
 	}
 
 	#blackbar{
