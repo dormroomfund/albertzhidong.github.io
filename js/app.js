@@ -14,6 +14,12 @@ $(document).ready(function(){
   $('#arrow').mouseenter(function(){
     arrowhop();
   });
+
+  $('#SignUpButton').onClick(function(){
+      alert('works');
+      $(this).closest().find('input').finish().show()
+      .animate({'display':'none'}, 500);
+  });
 });
 
 //controls arrow hopping animation when mouse hovers over

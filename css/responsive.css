@@ -245,7 +245,7 @@
 		justify-content: space-between;
 	}
 
-	#Fiverows .row9, #YCLogos .row4, #AcceleratorLogos .row1, #AcceleratorLogos .row2{
+	#Fiverows .row9, #YCLogos .row4{
 		justify-content: center;
 	}
 
@@ -256,14 +256,6 @@
 	.MultiGraphic a img{
 		width: 100%;
 		margin: auto;
-	}
-
-	#AcceleratorLogos{
-		width: 100%;
-		margin-left: 0%;
-		margin-right: 0%;
-		padding-left: 0%;
-		padding-right: 0%;
 	}
 
 	.aligndivs{
@@ -292,10 +284,6 @@
 		width: 30%;
 		height: 30%;
 		margin: 2% 0%;
-	}
-
-	#AcceleratorLogos img{
-		width: 25%;
 	}
 
 	#StudentVCs img{

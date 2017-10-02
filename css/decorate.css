@@ -146,53 +146,6 @@ header a, header div{
 	transform: translateY(-20px);
 }
 
-
-#navdiv{
-	position: fixed;
-	width: 100%;
-	height: 100vh;
-	top: 0;
-	left: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: left;
-	padding-bottom: .7%;
-	z-index: 100;
-}
-
-#yellownav div{
-	display: inline-block;
-	background-color: rgb(255,174,6);
-	width: 40px;
-	height: 40px;
-	margin: 4% 0% 4% 30%;
-}
-
-#greennav div{
-	display: inline-block;
-	background-color: rgb(146, 234, 202);
-	width: 40px;
-	height: 40px;
-	margin: 4% 0% 4% 30%;
-}
-
-#rednav div{
-	display: inline-block;
-	background-color: rgb(255, 87, 92);
-	width: 40px;
-	height: 40px;
-	margin: 4% 0% 4% 30%;
-}
-
-#bluenav div{
-	display: inline-block;
-	background-color: rgb(8, 76, 211);
-	width: 40px;
-	height: 40px;
-	margin: 4% 0% 4% 30%;
-}
-
 /*---------------------------Title Screen---------------------------*/
 #DRFIconWrapper{
 	position: absolute;
@@ -273,17 +226,9 @@ header a, header div{
 	width: 100%;
 }
 
-/*---------------------------Introtext---------------------------*/
-#introtext{
-	width: 100%;
-	padding: 5% 20%;
-	position: relative;
-	margin: auto;
-}
-
 /*---------------------------Quotes---------------------------*/
 #quotes{
-	padding: 5% 15%;
+	padding: 5% 15% 0% 15%;
 	position: relative;
 	width: 100%;
 }
@@ -325,6 +270,14 @@ header a, header div{
 
 .quotequote{
 	line-height: 0;
+}
+
+/*---------------------------Introtext---------------------------*/
+#introtext{
+	width: 100%;
+	padding: 5% 20%;
+	position: relative;
+	margin: auto;
 }
 
 /*---------------------------Section Titles---------------------------*/
@@ -478,35 +431,6 @@ header a, header div{
 
 #YCLogos .row4{
 	justify-content: center;
-}
-
-#AcceleratorText{
-	position: relative;
-	width: 100%;
-	margin-right: 5%;
-	text-align: center;
-}
-
-#AcceleratorLogos{
-	position: relative;
-	text-align: center;
-	width: 50%;
-	padding: 0% 0%;
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-top: 0%;
-}
-
-#AcceleratorLogos .row1, #AcceleratorLogos .row2{
-	justify-content: center;
-}
-
-#AcceleratorLogos img{
-	position: relative;
-	width: 30%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	margin: 0% 0%;
 }
 
 /*---------------------------Newsletter---------------------------*/
