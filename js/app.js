@@ -18,11 +18,11 @@ $(document).ready(function(){
 var lastCall = 0;
 function arrowhop() {
   var now = Date.now();
-  if (lastCall + 500 < now) {
+  if (lastCall + 1000 < now) {
     lastCall = now;
     $('#arrow').find('img').finish().show()
     .animate({'margin-bottom': '15px'}, 200, function(){
-      $(this).animate({'margin-bottom': '0px'}, 200);
+      $(this).animate({'margin-bottom': '0px'}, 350);
     });
   }
 }
