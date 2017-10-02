@@ -233,7 +233,7 @@
 		padding-right: 0%;
 	}
 
-	.MultiGraphic .row1, .MultiGraphic .row2, .MultiGraphic .row3, .MultiGraphic .row4, .MultiGraphic .row5,.MultiGraphic .row6,.MultiGraphic .row7, .MultiGraphic .row8, .MultiGraphic .row9{
+	.MultiGraphic .row1, .MultiGraphic .row2, .MultiGraphic .row3, .MultiGraphic .row4, .MultiGraphic .row5,.MultiGraphic .row6,.MultiGraphic .row7, .MultiGraphic .row8{
 		justify-content: space-between;
 	}
 
@@ -328,6 +328,15 @@
 		width: 100%;
 		float: none;
 		padding-top: 5%;
+	}
+
+	#apply button{
+		width: 75%;
+		padding: 2%;
+	}
+
+	#apply .ButtonText{
+		font-size: 1.03125rem;
 	}
 }
 
