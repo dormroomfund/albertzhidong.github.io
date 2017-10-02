@@ -146,6 +146,53 @@ header a, header div{
 	transform: translateY(-20px);
 }
 
+
+#navdiv{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: left;
+	padding-bottom: .7%;
+	z-index: 100;
+}
+
+#yellownav div{
+	display: inline-block;
+	background-color: rgb(255,174,6);
+	width: 40px;
+	height: 40px;
+	margin: 4% 0% 4% 30%;
+}
+
+#greennav div{
+	display: inline-block;
+	background-color: rgb(146, 234, 202);
+	width: 40px;
+	height: 40px;
+	margin: 4% 0% 4% 30%;
+}
+
+#rednav div{
+	display: inline-block;
+	background-color: rgb(255, 87, 92);
+	width: 40px;
+	height: 40px;
+	margin: 4% 0% 4% 30%;
+}
+
+#bluenav div{
+	display: inline-block;
+	background-color: rgb(8, 76, 211);
+	width: 40px;
+	height: 40px;
+	margin: 4% 0% 4% 30%;
+}
+
 /*---------------------------Title Screen---------------------------*/
 #DRFIconWrapper{
 	position: absolute;

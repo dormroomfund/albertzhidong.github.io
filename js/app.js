@@ -33,6 +33,9 @@ function arrowhop() {
 var scrolled = true;
 window.onscroll= function(e){ 
   scrolled = false;
+  if($(window).scrollTop() == 0){
+    scrolled = true;
+  }
 }
 
 //controls the flashing aniamtion of the arrow
