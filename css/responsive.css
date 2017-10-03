@@ -103,6 +103,7 @@
 /*---------------------------Introtext---------------------------*/
 @media (max-width: 800px){
 	#introtext{
+		padding-top: 0%;
 		padding-left: 10%;
 		padding-right: 10%;
 	}
@@ -123,7 +124,15 @@
 
 	#Josh{
 		margin: 5% 0% 5% 0%;
-		padding: 0%;
+		padding: 1% 5%;
+	}
+
+	#Josh .individualquote .quoteimg{
+		width: 20%;
+	}
+
+	#Josh .individualquote .quotetext{
+		width: 75%;
 	}
 }
 
@@ -161,6 +170,14 @@
 	#Josh .individualquote{
 		margin: 5% 0%;
 		padding: 0% 5%;
+	}
+
+	#Josh .individualquote .quoteimg{
+		width: 100%;
+	}
+
+	#Josh .individualquote .quotetext{
+		width: 100%;
 	}
 }
 
@@ -323,16 +340,27 @@
 }
 
 /*---------------------------Apply---------------------------*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1200px){
 	#videowrapper, #video{
-		width: 100%;
+		width: 75%;
 	}
-
 
 	#apply{
 		width: 100%;
 		float: none;
 		padding-top: 5%;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	#videowrapper, #video{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	#videowrapper, #video{
+		width: 90%;
 	}
 
 	#apply button{
@@ -345,6 +373,11 @@
 	}
 }
 
+@media screen and (max-width: 600px){
+	#videowrapper, #video{
+		width: 100%;
+	}
+}
 /*---------------------------Thanks---------------------------*/
 @media screen and (max-width: 800px){
 	#thanks{
@@ -359,7 +392,7 @@
 }
 
 /*---------------------------Footer---------------------------*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 	footer{
 		display: inline-block;
 		width: 100%;
