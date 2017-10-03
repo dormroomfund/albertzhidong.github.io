@@ -32,7 +32,7 @@ $(document).ready(function(){
     }else if(validateEmail($('#emailinput').val()) != true){ //checks to see if its a valid email
       $(this).parent().parent().find('.red').remove();
       var warning2 = document.createElement("P");
-      var textnode = document.createTextNode("Please enter a valid email");
+      var textnode = document.createTextNode("Please enter a valid email!");
       warning2.appendChild(textnode);
       warning2.className += "SubsubheaderText red";
       warning2.style.marginTop = 2 + '%';
@@ -62,6 +62,25 @@ $(document).ready(function(){
     }
   });
 
+  //handles button animation on hover
+  $('#SignUpButton').mouseenter(function(){
+    $(this).animate({'opacity':'.75'}, 300);
+  });
+  $('#SignUpButton').mouseleave(function(){
+    $(this).animate({'opacity':'1'}, 300);
+  });
+  $('#PartnerApply').mouseenter(function(){
+    $(this).animate({'opacity':'.75'}, 300);
+  });
+  $('#PartnerApply').mouseleave(function(){
+    $(this).animate({'opacity':'1'}, 300);
+  });
+  $('#FundingApply').mouseenter(function(){
+    $(this).animate({'opacity':'.75'}, 300);
+  });
+  $('#FundingApply').mouseleave(function(){
+    $(this).animate({'opacity':'1'}, 300);
+  });
 });
 
 //controls arrow hopping animation when mouse hovers over
