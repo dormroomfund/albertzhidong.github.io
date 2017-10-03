@@ -303,7 +303,7 @@
 		flex-direction: column;
 	}
 
-	#signup input{
+	#signup input, #signup button{
 		width: 60%;
 		margin-top: 2.5%;
 		margin-bottom: 2.5%;
