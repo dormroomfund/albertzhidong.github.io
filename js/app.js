@@ -39,6 +39,7 @@ $(document).ready(function(){
       warning2.style.marginBottom = 0 + '%';
       $('#newsletter').append(warning2);
     }else{
+      submit();
       $(this).parent().parent().find('.red').remove();
       var thanks = document.createElement("P");
       var textnode = document.createTextNode("Thanks!");
@@ -106,3 +107,26 @@ function validateEmail(elementValue){
    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
    return emailPattern.test(elementValue); 
 } 
+
+function submit(){
+  var url = "https://script.google.com/macros/s/AKfycbxs4vTvuG_Ysmaim4qefVjNH0bM4cWsmorz-av0eaby-1aPSQ/exec"
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', url);
+  xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+  xhr.onreadystatechange = function() {
+    console.log( xhr.status, xhr.statusText )
+    console.log(xhr.responseText);
+  };
+
+  var filledName = $('#nameinput').val();
+  var filledEmail = $('#emailinput').val();
+  var data = {
+    name: filledName,
+    email: filledEmail
+  }
+  // url encode form data for sending as post data
+  var encoded = Object.keys(data).map(function(k) {
+      return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+  }).join('&')
+  xhr.send(encoded);
+}
