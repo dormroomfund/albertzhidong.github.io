@@ -1,7 +1,14 @@
 $(document).ready(function(){
 
-  arrowflash();
+  //controls the flashing arrow animation
+  arrowFlash();
 
+  //controls the hopping arrow animation
+  $('#arrow').mouseenter(function(){
+    arrowHop();
+  });
+
+  //handles the banner dop animation
   $('.Banners').mouseenter(function(){
     $(this).find('img').finish().show()
     .animate({'margin-top':'15px'}, 250);
@@ -9,10 +16,6 @@ $(document).ready(function(){
   $('.Banners').mouseleave(function(){
     $(this).find('img').finish().show()
     .animate({'margin-top':'0px'}, 350);
-  });
-
-  $('#arrow').mouseenter(function(){
-    arrowhop();
   });
 
   //controls the newsletter signup responses
@@ -45,11 +48,24 @@ $(document).ready(function(){
       $(this).parent().remove();
     }
   });
+
+  //allows for "Enter" to be pressed to submit one of the text boxes is in focus
+  $("#nameinput").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#SignUpButton").click();
+    }
+  });
+  $("#emailinput").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#SignUpButton").click();
+    }
+  });
+
 });
 
 //controls arrow hopping animation when mouse hovers over
 var lastCall = 0;
-function arrowhop() {
+function arrowHop() {
   var now = Date.now();
   if (lastCall + 1000 < now) {
     lastCall = now;
@@ -70,7 +86,7 @@ window.onscroll= function(e){
 }
 
 //controls the flashing aniamtion of the arrow
-function arrowflash(){
+function arrowFlash(){
   $('#arrow').find('img').finish().show()
     .animate({'opacity':'0'}, 1500, function(){
     $(this).animate({'opacity':'1'}, 1500);
@@ -85,6 +101,7 @@ function arrowflash(){
   },3500);
 }
 
+//checks to make sure the email is valid
 function validateEmail(elementValue){      
    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
    return emailPattern.test(elementValue); 
