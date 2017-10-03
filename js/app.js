@@ -8,7 +8,7 @@ $(document).ready(function(){
   });
   $('.Banners').mouseleave(function(){
     $(this).find('img').finish().show()
-    .animate({'margin-top':'0px'}, 250);
+    .animate({'margin-top':'0px'}, 350);
   });
 
   $('#arrow').mouseenter(function(){
@@ -16,18 +16,9 @@ $(document).ready(function(){
   });
 
   //controls the newsletter signup responses
-  var warningcalled = false;
   $('#SignUpButton').click(function(){
-    if($('#nameinput').val().length != 0 || $('#emailinput').val().length != 0){
+    if($('#nameinput').val().length == 0 || $('#emailinput').val().length == 0){ //checks to see all boxes are filled
       $(this).parent().parent().find('.red').remove();
-      var thanks = document.createElement("P");
-      var textnode = document.createTextNode("Thanks!");
-      thanks.appendChild(textnode);
-      thanks.className += "SubsubheaderText blue";
-      $('#newsletter').append(thanks);
-      $(this).parent().remove();
-    } else if(warningcalled == false){
-      warningcalled = true;
       var warning = document.createElement("P");
       var textnode = document.createTextNode("Please fill out all required fields!");
       warning.appendChild(textnode);
@@ -35,6 +26,23 @@ $(document).ready(function(){
       warning.style.marginTop = 2 + '%';
       warning.style.marginBottom = 0 + '%';
       $('#newsletter').append(warning);
+    }else if(validateEmail($('#emailinput').val()) != true){ //checks to see if its a valid email
+      $(this).parent().parent().find('.red').remove();
+      var warning2 = document.createElement("P");
+      var textnode = document.createTextNode("Please enter a valid email");
+      warning2.appendChild(textnode);
+      warning2.className += "SubsubheaderText red";
+      warning2.style.marginTop = 2 + '%';
+      warning2.style.marginBottom = 0 + '%';
+      $('#newsletter').append(warning2);
+    }else{
+      $(this).parent().parent().find('.red').remove();
+      var thanks = document.createElement("P");
+      var textnode = document.createTextNode("Thanks!");
+      thanks.appendChild(textnode);
+      thanks.className += "SubsubheaderText blue";
+      $('#newsletter').append(thanks);
+      $(this).parent().remove();
     }
   });
 });
@@ -76,3 +84,8 @@ function arrowflash(){
     }
   },3500);
 }
+
+function validateEmail(elementValue){      
+   var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+   return emailPattern.test(elementValue); 
+} 

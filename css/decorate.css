@@ -125,6 +125,10 @@ body{
 	color: white;
 }
 
+.black{
+	color: black;
+}
+
 /*---------------------------Header & Banners---------------------------*/
 header{
 	position: fixed;
@@ -219,16 +223,17 @@ header a, header div{
 	padding: 0;
 }
 
-#blackbar{
-	position: relative;
-	background-color: black;
-	height: 5px;
+/*---------------------------Introtext---------------------------*/
+#introtext{
 	width: 100%;
+	padding: 2% 20%;
+	position: relative;
+	margin: auto;
 }
 
 /*---------------------------Quotes---------------------------*/
-#quotes{
-	padding: 5% 20% 0% 20%;
+.quotes{
+	padding: 5% 10%;
 	position: relative;
 	width: 100%;
 }
@@ -240,14 +245,14 @@ header a, header div{
 	padding: 2% 0%;
 }
 
-#quotes .flexreverse{
+.quotes .flexreverse{
 	flex-direction: row-reverse;
 }
 
 .individualquote .quoteimg{
 	margin: 0 0;
 	padding: 0 0;
-	width: 20%;
+	width: 10%;
 }
 
 .quoteimg img{
@@ -255,9 +260,8 @@ header a, header div{
 }
 
 .individualquote .quotetext{
-	width: 75%;
+	width: 85%;
 }
-
 
 .individualquote .quotetitle p{
 	margin: 0 0;
@@ -272,12 +276,9 @@ header a, header div{
 	line-height: 0;
 }
 
-/*---------------------------Introtext---------------------------*/
-#introtext{
-	width: 100%;
-	padding: 2% 20%;
-	position: relative;
-	margin: auto;
+#Josh{
+	margin: 5% 0% 2% 0%;
+	padding: 0% 10%;
 }
 
 /*---------------------------Section Titles---------------------------*/
@@ -440,7 +441,7 @@ header a, header div{
 	padding: 5% 5%;
 }
 
-#centeredtext{
+.centeredtext{
 	text-align: center;
 }
 
