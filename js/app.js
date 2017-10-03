@@ -16,6 +16,7 @@ $(document).ready(function(){
   });
 
   //controls the newsletter signup responses
+  var warningcalled = false;
   $('#SignUpButton').click(function(){
     if($('#nameinput').val().length != 0 || $('#emailinput').val().length != 0){
       $(this).parent().parent().find('.red').remove();
@@ -25,7 +26,8 @@ $(document).ready(function(){
       thanks.className += "SubsubheaderText blue";
       $('#newsletter').append(thanks);
       $(this).parent().remove();
-    } else{
+    } else if(warningcalled == false){
+      warningcalled = true;
       var warning = document.createElement("P");
       var textnode = document.createTextNode("Please fill out all required fields!");
       warning.appendChild(textnode);
