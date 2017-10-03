@@ -120,11 +120,17 @@
 	#quotes{
 		padding: 5%;
 	}
+
+	#Josh{
+		margin: 5% 0% 5% 0%;
+		padding: 0%;
+	}
 }
 
 @media screen and (max-width: 500px){
 	.individualquote{
 		display: inline-block;
+		padding-top: 10%;
 	}
 
 	.individualquote .quotetext{
@@ -145,6 +151,16 @@
 
 	.quotetitle{
 		text-align: right;
+	}
+
+	#Josh{
+		margin: 5% 0% 2% 0%;
+		padding: 0%;
+	}
+
+	#Josh .individualquote{
+		margin: 5% 0%;
+		padding: 0% 5%;
 	}
 }
 
