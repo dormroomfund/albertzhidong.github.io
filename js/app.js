@@ -15,10 +15,25 @@ $(document).ready(function(){
     arrowhop();
   });
 
-  $('#SignUpButton').onClick(function(){
-      alert('works');
-      $(this).closest().find('input').finish().show()
-      .animate({'display':'none'}, 500);
+  //controls the newsletter signup responses
+  $('#SignUpButton').click(function(){
+    if($('#nameinput').val().length != 0 || $('#emailinput').val().length != 0){
+      $(this).parent().parent().find('.red').remove();
+      var thanks = document.createElement("P");
+      var textnode = document.createTextNode("Thanks!");
+      thanks.appendChild(textnode);
+      thanks.className += "SubsubheaderText blue";
+      $('#newsletter').append(thanks);
+      $(this).parent().remove();
+    } else{
+      var warning = document.createElement("P");
+      var textnode = document.createTextNode("Please fill out all required fields!");
+      warning.appendChild(textnode);
+      warning.className += "SubsubheaderText red";
+      warning.style.marginTop = 2 + '%';
+      warning.style.marginBottom = 0 + '%';
+      $('#newsletter').append(warning);
+    }
   });
 });
 

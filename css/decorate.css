@@ -61,14 +61,14 @@
 	font-family: CircularStd-BookItalic, Helvetica, Arial, sans-serif;	
 }
 
-.Black{
-	font-family: CircularStd-Black, Helvetica, Arial, sans-serif;	
-}
-
 .BylineText{
 	font-size: 1rem;
 	font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
 	font-style: italic;
+}
+
+.Black{
+	font-family: CircularStd-Black, Helvetica, Arial, sans-serif;	
 }
 
 body{
@@ -228,7 +228,7 @@ header a, header div{
 
 /*---------------------------Quotes---------------------------*/
 #quotes{
-	padding: 5% 15% 0% 15%;
+	padding: 5% 20% 0% 20%;
 	position: relative;
 	width: 100%;
 }
@@ -247,7 +247,7 @@ header a, header div{
 .individualquote .quoteimg{
 	margin: 0 0;
 	padding: 0 0;
-	width: 25%;
+	width: 20%;
 }
 
 .quoteimg img{
@@ -255,7 +255,7 @@ header a, header div{
 }
 
 .individualquote .quotetext{
-	width: 70%;
+	width: 75%;
 }
 
 
@@ -275,7 +275,7 @@ header a, header div{
 /*---------------------------Introtext---------------------------*/
 #introtext{
 	width: 100%;
-	padding: 5% 20%;
+	padding: 2% 20%;
 	position: relative;
 	margin: auto;
 }
@@ -456,7 +456,7 @@ header a, header div{
 	max-width: 80%;
 }
 
-#signup input{
+#signup input, #signup button{
 	border: 1px solid #dbdbdb;
 	padding: .8rem .8rem .8rem 1rem;
 	width: 25%;
@@ -464,7 +464,7 @@ header a, header div{
 	font-weight: 300;
 }
 
-#signup input:last-child{
+#signup button{
 	color: white;
 }
 
