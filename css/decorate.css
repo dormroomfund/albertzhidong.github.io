@@ -64,7 +64,6 @@
 .BylineText{
 	font-size: 1.2rem;
 	font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
-	font-style: italic;
 }
 
 .Black{
@@ -76,6 +75,9 @@ body{
 	font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
 }
 
+.italic{
+	font-style: italic;
+}
 .underline{
 	text-decoration: underline;
 }
