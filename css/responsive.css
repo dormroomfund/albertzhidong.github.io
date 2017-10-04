@@ -52,6 +52,10 @@
 		font-size: 1.03125rem;
 		font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
 	}
+
+	.italic{
+		font-style: italic;
+	}
 }
 
 /*---------------------------Social Media---------------------------*/
