@@ -62,9 +62,9 @@
 }
 
 .BylineText{
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	font-family: CircularStd-Book, Helvetica, Arial, sans-serif;
-/*	font-style: italic;*/
+	font-style: italic;
 }
 
 .Black{
