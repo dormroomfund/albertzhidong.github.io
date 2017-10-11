@@ -17,6 +17,10 @@ $(document).ready(function(){
     $(this).find('img').finish().show()
     .animate({'margin-top':'0px'}, 350);
   });
+  $('.Banners').click(function(){
+    $(this).find('img').finish().show()
+    .animate({'margin-top':'0px'}, 350);
+  });
 
   //controls the newsletter signup responses
   $('#SignUpButton').click(function(){
