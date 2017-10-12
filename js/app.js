@@ -85,6 +85,18 @@ $(document).ready(function(){
   $('#FundingApply').mouseleave(function(){
     $(this).animate({'opacity':'1'}, 300);
   });
+  $('footer').find('a').mouseenter(function(){
+    $(this).find('p').animate({'opacity':'.5'}, 300);
+  });
+  $('footer').find('a').mouseleave(function(){
+    $(this).find('p').animate({'opacity':'1'}, 300);
+  });
+  $('#DRFIconWrapper').find('a').mouseenter(function(){
+    $(this).find('img').animate({'opacity':'.5'}, 300);
+  });
+  $('#DRFIconWrapper').find('a').mouseleave(function(){
+    $(this).find('img').animate({'opacity':'1'}, 300);
+  });
 });
 
 //controls arrow hopping animation when mouse hovers over
