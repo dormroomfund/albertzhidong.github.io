@@ -74,8 +74,8 @@
 
 /*---------------------------Title Screen---------------------------*/
 @media screen and (max-width: 800px){
-	#DRFIconWrapper img{
-		max-width: 15%;
+	#DRFIconWrapper a{
+		width: 15%;
 	}
 
 	#title_background img{
@@ -84,8 +84,8 @@
 }
 
 @media screen and (max-width: 500px){
-	#DRFIconWrapper img{
-		max-width: 20%;
+	#DRFIconWrapper a{
+		width: 20%;
 	}
 
 	#title-background{
@@ -404,7 +404,7 @@
 		padding: 5%;
 	}
 
-	footer p{
+	footer p, footer a{
 		text-align: center;
 	}
 }
