@@ -79,10 +79,16 @@ $(document).ready(function(){
   $('#PartnerApply').mouseleave(function(){
     $(this).animate({'opacity':'1'}, 300);
   });
+  $('#PartnerApply').click(function(){
+    $(this).animate({'opacity':'1'}, 300);
+  });
   $('#FundingApply').mouseenter(function(){
     $(this).animate({'opacity':'.75'}, 300);
   });
   $('#FundingApply').mouseleave(function(){
+    $(this).animate({'opacity':'1'}, 300);
+  });
+  $('#FundingApply').click(function(){
     $(this).animate({'opacity':'1'}, 300);
   });
   $('footer').find('a').mouseenter(function(){
@@ -91,10 +97,16 @@ $(document).ready(function(){
   $('footer').find('a').mouseleave(function(){
     $(this).find('p').animate({'opacity':'1'}, 300);
   });
+  $('footer').find('a').click(function(){
+    $(this).find('p').animate({'opacity':'1'}, 300);
+  });
   $('#DRFIconWrapper').find('a').mouseenter(function(){
     $(this).find('img').animate({'opacity':'.5'}, 300);
   });
   $('#DRFIconWrapper').find('a').mouseleave(function(){
+    $(this).find('img').animate({'opacity':'1'}, 300);
+  });
+  $('#DRFIconWrapper').find('a').click(function(){
     $(this).find('img').animate({'opacity':'1'}, 300);
   });
 });
